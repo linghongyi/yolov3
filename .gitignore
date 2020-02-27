@@ -1,12 +1,10 @@
 # Repo-specific GitIgnore ----------------------------------------------------------------------------------------------
-*.jpg
 *.jpeg
 *.png
 *.bmp
 *.tif
 *.tiff
 *.heic
-*.JPG
 *.JPEG
 *.PNG
 *.BMP
@@ -17,7 +15,6 @@
 *.mov
 *.MOV
 *.avi
-*.data
 *.json
 
 *.cfg
@@ -35,6 +32,15 @@ data/*
 !data/coco_*.txt
 !data/trainvalno5k.shapes
 !data/*.sh
+!data/images
+!data/labels
+!data/test.txt
+!data/train.txt
+!data/trainval.txt
+!data/val.txt
+!data/wrs.data
+!data/wrs.names
+
 
 pycocotools/*
 results*.txt
