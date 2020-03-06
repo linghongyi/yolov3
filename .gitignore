@@ -58,7 +58,7 @@ gcp_test*.sh
 *.mlmodel
 darknet53.conv.74
 #yolov3-tiny.conv.15
-
+!weights/best.pt
 # GitHub Python GitIgnore ----------------------------------------------------------------------------------------------
 # Byte-compiled / optimized / DLL files
 __pycache__/
